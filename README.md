@@ -5,18 +5,28 @@ Header-only C++ implementation for HSIG, with python bindings.
 
 ## Quick Start
 
-### Compile and Run
+### Compile
 
 ```bash
 cd python_bindings
 python setup.py install
-```
+``` 
 
-Running example benchmark:
+### Datasets
+The datasets can be downloaded from their official websites, and users can generate attributes and query ranges as the following: 
 ```bash
 cd benchmark
 cd code
-python search_hnsw.py --use_mbv_hnsw true --data_path YOUR_DATA_DIR --index_cache_path YOUR_INDEX_DIR --result_save_path YOUR_RESULT_PATH
+python preprocessing.py
+``` 
+
+### Running example benchmark:
+```bash
+cd benchmark
+cd code
+python search_hsig.py --use_mbv_hnsw true --data_path YOUR_DATA_DIR --index_cache_path YOUR_INDEX_DIR --result_save_path YOUR_RESULT_PATH
 ```
+
+
 
 
