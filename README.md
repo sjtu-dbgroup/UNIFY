@@ -1,4 +1,4 @@
-# Hannlib - Fast Hybrid Approximate Nearest Neighbor Search
+# UNIFY - Range Filtered Approximate Nearest Neighbors Search
 This repo is the implementation of UNIFY: Unified Index for Range Filtered Approximate Nearest Neighbors Search.
 
 Header-only C++ implementation for HSIG, with python bindings.
