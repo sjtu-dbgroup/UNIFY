@@ -1,0 +1,92 @@
+*.bin
+*.time
+*.png
+*.csv
+
+__pycache__
+*.pyc
+*.so
+*.hdf5
+.DS_Store
+hnswlib.egg-info/
+build/
+dist/
+tmp/
+python_bindings/tests/__pycache__/
+*.pyd
+hnswlib.cpython*.so
+var/
+.idea/
+.vscode/
+
+benchmark/data
+
+benchmark/index
+
+benchmark/latest-results
+
+benchmark/result
+benchmark/results
+
+benchmark/code/gather_statistics.py
+benchmark/code/group1.py
+benchmark/code/group2+3.py
+benchmark/code/group3.py
+benchmark/code/group4.py
+benchmark/code/merge_selectivity.py
+benchmark/code/index.sh
+benchmark/code/plot.py
+benchmark/code/preprocessing_selectivity.py
+benchmark/code/search_ivfpq.py
+
+benchmark/code/search_selectivity.sh
+benchmark/code/search.sh
+benchmark/code/selectivity_test.py
+
+
+
+# Cmake files
+cmake-build-*
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+# Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.exe
